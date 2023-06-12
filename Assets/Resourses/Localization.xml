@@ -1,0 +1,80 @@
+<Keys>
+	<Key Name="Settings">
+		<Translates>
+			<en-us>Settings</en-us>
+			<ru>Настройки</ru>
+			<ua>Налаштування</ua>
+		</Translates>
+	</Key>
+	<Key Name="Graphic">
+		<Translates>
+			<en-us>Graphic</en-us>
+			<ru>Графика</ru>
+			<ua>Графіка</ua>
+		</Translates>
+	</Key>
+	<Key Name="Very Low">
+		<Translates>
+			<en-us>Very Low</en-us>
+			<ru>Очень низкий</ru>
+			<ua>Дуже низький</ua>
+		</Translates>
+	</Key>
+	<Key Name="Low">
+		<Translates>
+			<en-us>Low</en-us>
+			<ru>Низкий</ru>
+			<ua>Низкий</ua>
+		</Translates>
+	</Key>
+	<Key Name="Medium">
+		<Translates>
+			<en-us>Medium</en-us>
+			<ru>Средний</ru>
+			<ua>Середній</ua>
+		</Translates>
+	</Key>
+	<Key Name="High">
+		<Translates>
+			<en-us>High</en-us>
+			<ru>Высокий</ru>
+			<ua>Высокий</ua>
+		</Translates>
+	</Key>
+	<Key Name="Very High">
+		<Translates>
+			<en-us>Very High</en-us>
+			<ru>Очень высокий</ru>
+			<ua>Дуже високий</ua>
+		</Translates>
+	</Key>
+	<Key Name="Ultra">
+		<Translates>
+			<en-us>Ultra</en-us>
+			<ru>Ультра</ru>
+			<ua>Ультра</ua>
+		</Translates>
+	</Key>
+	<Key Name="Volume">
+		<Translates>
+			<en-us>Volume</en-us>
+			<ru>Громкость</ru>
+			<ua>гучність</ua>
+		</Translates>
+	</Key>
+	<Key Name="Language">
+		<Translates>
+			<en-us>Language</en-us>
+			<ru>Язык</ru>
+			<ua>Мова</ua>
+		</Translates>
+	</Key>
+	<Key Name="Back">
+		<Translates>
+			<en-us>Back</en-us>
+			<ru>Назад</ru>
+			<ua>Назад</ua>
+		</Translates>
+	</Key>
+</Keys>
+			
