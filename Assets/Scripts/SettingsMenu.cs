@@ -7,11 +7,22 @@ using TMPro;
 
 public class SettingsMenu : MonoBehaviour
 {
-    public AudioMixer audioMixer;
+    public AudioSource audioSrc;
+    private float musicVolume = 1f;
 
-    public void SetVolume (float volume)
+    void Start()
     {
-        audioMixer.SetFloat("Volume", volume); 
+        audioSrc = GetComponent<AudioSource>();
+    }
+
+    void Update()
+    {
+        audioSrc.volume = musicVolume;
+    }
+
+    public void SetVolume (float vol)
+    {
+        musicVolume = vol;
     } 
 
     public void SetQuality (int qualityIndex)
