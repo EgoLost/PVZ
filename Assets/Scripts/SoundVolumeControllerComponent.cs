@@ -6,19 +6,19 @@ using UnityEngine.UI;
 public class SoundVolumeControllerComponent : MonoBehaviour
 {
     [Header("Components")]
-    [SerializeField] private AudioSource audio;
-    [SerializeField] private Slider slider;
-    [SerializeField] private Text text;
+    [SerializeField] public AudioSource audio;
+    [SerializeField] public Slider slider;
+    [SerializeField] public Text text;
 
     [Header("Keys")]
-    [SerializeField] private string saveVolumeKey;
+    [SerializeField] public string saveVolumeKey;
 
     [Header("Tags")]
-    [SerializeField] private string sliderTag;
-    [SerializeField] private string textVolumeTag;
+    [SerializeField] public string sliderTag;
+    [SerializeField] public string textVolumeTag;
 
     [Header("Parameters")]
-    [SerializeField] private float volume;
+    [SerializeField] public float volume;
 
     private void Awake()
     {
@@ -35,7 +35,6 @@ public class SoundVolumeControllerComponent : MonoBehaviour
             }
             else
             {
-                this.volume = this.slider.value;
                 PlayerPrefs.SetFloat(this.saveVolumeKey, this.volume);
                 this.audio.volume = this.volume;
             }

@@ -8,15 +8,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: Assets/Scenes/Credit.unity
+    guid: 1c10c4eccfe5c66459ef1aa30fcaaed0
   - enabled: 1
     path: Assets/Scenes/Options.unity
     guid: 336c13d4cd333b74bb16b5219b8c57fe
   - enabled: 1
     path: Assets/Scenes/Previous.unity
     guid: c547d10bdd744804ca3e767a5503aab4
-  - enabled: 1
-    path: Assets/Scenes/Credit.unity
-    guid: 1c10c4eccfe5c66459ef1aa30fcaaed0
   - enabled: 1
     path: Assets/Scenes/Support.unity
     guid: dcf35b6fb42e193459d4c5630f85d799
@@ -28,7 +28,7 @@ EditorBuildSettings:
     guid: 2686bf39554c3f04fae08c5ff8bcd5b8
   - enabled: 1
     path: Assets/Scenes/Game Ru.unity
-    guid: 7ba3de9a6c1887f45b488cb615ed8707
+    guid: 9b8215b0a5af1254e8f2e9c3870c092e
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 6f34196ebaf8a2f49a432da0ea044bb1, type: 2}
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: c2672d9abc1469c42809b5fca9f163fd, type: 2}
