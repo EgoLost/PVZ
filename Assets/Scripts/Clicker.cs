@@ -39,9 +39,15 @@ public class Clicker : MonoBehaviour
         }
     }
 
-    public void Click()
+    public void SaloClick()
     {
-        DamageTarget(GetClickDamage());
+        DamageTarget(Salo());
+    }
+
+    private float Salo()
+    {
+        float damage = 1;
+        return damage;
     }
 
     private void DamageTarget(float damage)
@@ -49,10 +55,39 @@ public class Clicker : MonoBehaviour
         Money += damage;
         UpdateUI();
     }
-    
-    private float GetClickDamage()
+
+    public void BorshClick()
     {
-        float damage = 1;
+        DamageTarget(Borsh());
+    }
+    
+    private float Borsh()
+    {
+        float damage = 5;
+
+        return damage;
+    }
+
+    public void PampushkaClick()
+    {
+        DamageTarget(Pampushka());
+    }
+    
+    private float Pampushka()
+    {
+        float damage = 10;
+
+        return damage;
+    }
+
+    public void KorovaiClick()
+    {
+        DamageTarget(Korovai());
+    }
+    
+    private float Korovai()
+    {
+        float damage = 30;
 
         return damage;
     }

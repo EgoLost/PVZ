@@ -39,29 +39,64 @@ public class Clicker2 : MonoBehaviour
         }
     }
 
-    public void Click()
+    public void VodkaClick()
     {
-        DamageTarget(GetClickDamage());
+        DamageTarget(Vodka());
     }
 
-    private void DamageTarget(float damage2)
+    private float Vodka()
     {
-        Money2 += damage2;
+        float damage = 1;
+        return damage;
+    }
+
+    private void DamageTarget(float damage)
+    {
+        Money2 += damage;
         UpdateUI();
     }
-    
-    private float GetClickDamage()
-    {
-        float damage2 = 1;
 
-        return damage2;
+    public void MatreshkaClick()
+    {
+        DamageTarget(Matreshka());
+    }
+    
+    private float Matreshka()
+    {
+        float damage = 5;
+
+        return damage;
+    }
+
+    public void BearClick()
+    {
+        DamageTarget(Bear());
+    }
+    
+    private float Bear()
+    {
+        float damage = 10;
+
+        return damage;
+    }
+
+    public void ZClick()
+    {
+        DamageTarget(Z());
+    }
+    
+    private float Z()
+    {
+        float damage = 30;
+
+        return damage;
     }
 
     private float GetPassiveDamage()
     {
-        float damage2 = 2;
+        float damage = 2;
 
-        return damage2;
+        return damage;
     }
 
     public void UpdateUI()
